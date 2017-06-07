@@ -1,0 +1,49 @@
+#log {
+	width: 600px;
+	height:300px;
+	padding: 10px;
+	margin:0px auto;
+	border: groove;
+
+}
+#title>h1{
+	padding: 30px;
+	margin:0px auto;
+	text-align: center;
+}
+.acc_pas{
+	font-family:DFKai-sb; 
+}
+#loginbox{
+	width: 400px;
+	margin-left: 13%;
+	margin-top: 5%;
+
+}
+#loginbox>#login_l{
+	width: 200px;
+	float: left;
+}
+#loginbox>#login_r{
+	float: right;
+}
+#accountbox,#password{
+	width:200px;
+
+}
+#submit{
+	margin-top: 5px;
+	width: 100px;
+	height: 100px;
+
+}
+.foot{
+	margin:0px auto;
+}
+.foot *{
+	text-align: center;
+	font-size:10px; 
+}
+html{
+	font-family: DFkai-sb;
+}
