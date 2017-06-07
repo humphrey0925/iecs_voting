@@ -1,0 +1,30 @@
+html{
+	font-family: DFKai-sb;
+}
+#header{
+	height: 150px;
+	background-color: green; 
+}
+#navigate_bar{
+	margin-top: 20px;
+	width: 200px;
+	float: left;
+}
+#login_status,#navigate_bar{
+	border: groove;
+}
+#control_page{
+	margin-top: 20px;
+	float: right;
+}
+#feature_string{
+	font-size: 20px;
+	font-weight: bold;
+}
+#feature h2{
+	font-size: 15px;
+	font-weight: normal;
+}
+#feature ul{
+	visibility: hidden;
+}
