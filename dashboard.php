@@ -41,7 +41,7 @@
 				<div id="login_status">
 					<p>用戶<?php ?>您好，歡迎您的登陸</p>
 					<div id="logout">
-						登出
+						<p>登出</p>
 					</div>
 				</div>
 				<div id="feature">

@@ -1,5 +1,6 @@
 html{
 	font-family: DFKai-sb;
+	background-color: rgb(255,255,224);
 }
 #header{
 	height: 150px;
@@ -27,4 +28,11 @@ html{
 }
 #feature ul{
 	visibility: hidden;
+}
+#logout{
+	
+	background-color: rgb(255,215,0);
+}
+#logout p{
+	text-align: middle;
 }
