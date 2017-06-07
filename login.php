@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>逢甲大學資訊一甲幹部投票系統</title>
 </head>
 <body>
 	<?php
@@ -30,7 +30,13 @@
 	}
 	else
 	{
-		echo "good";
+		setcookie("login",'USER', time()+3600);
+        
+		?>
+		<form action="dashboard.php" method='post'>
+		<input type="hidden" value="<?php echo $account?>" name="account" />
+		<?php
+		header("Location: dashboard.php");
 	}
 	if(!$dbc)
 	{
